@@ -1,0 +1,13 @@
+[window]
+
+dimensions = {columns=85, lines=25}
+opacity = 0.90
+
+[font]
+
+normal = {family="CaskaydiaMono Nerd Font"}
+bold = {family="CaskaydiaMono Nerd Font"}
+italic = {family="CaskaydiaMono Nerd Font"}
+bold_italic = {family="CaskaydiaMono Nerd Font"}
+
+size = 14.0
