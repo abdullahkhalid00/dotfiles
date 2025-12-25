@@ -17,6 +17,7 @@ You need to install the following resources first before setting things up.
 - [Notepad++](https://notepad-plus-plus.org/downloads/)
 - [Nord](https://www.nordtheme.com/) (colorscheme)
 - [winfetch](https://github.com/lptstr/winfetch)
+- [Cascadia Mono Nerd Font (NF)](https://github.com/microsoft/cascadia-code) (you need this for icon rendering in terminal)
 
 ### PSReadLine (for auto-suggestions in CLI)
 
