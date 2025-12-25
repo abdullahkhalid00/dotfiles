@@ -1,15 +1,10 @@
-//   _____ _____ _____ _____ _____ _____ _____ _____ _____ 
-//  |   __|  _  |   __|_   _|   __|   __|_   _|     |  |  |
-//  |   __|     |__   | | | |   __|   __| | | |   --|     |
-//  |__|  |__|__|_____| |_| |__|  |_____| |_| |_____|__|__|  OS
-//
-//  by Bina
-
+// A fork of the file located at: https://github.com/LierB/fastfetch/blob/master/presets/os.jsonc
+// TODO: This file needs more customization.
 
 {
     "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
     "logo": {
-        "source": "linuxmint_small", // search for logos: fastfetch --list-logos or --print-logos
+        "source": "ubuntu_old2_small", // search for logos: fastfetch --list-logos or --print-logos
         "padding": {
 	        "top": 1
 	},
@@ -42,12 +37,12 @@
             "key": "pkgs  ",
             "keyColor": "33",  
         },
-        {
-            "type": "uptime",
-            "format": "{2}h {3}m",
-            "key": "uptime",
-            "keyColor": "33",
-        },
+//       {
+//            "type": "uptime",
+//            "format": "{2}h {3}m",
+//            "key": "uptime",
+//            "keyColor": "33",
+//        },
         {
             "type": "memory",
             "key": "memory",

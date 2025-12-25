@@ -1,9 +1,0 @@
-[window]
-
-dimensions = {columns=85, lines=25}
-opacity = 0.90
-
-#[terminal.shell]
-
-#program = "C:\\Program Files\\Git\\bin\\bash.exe"
-#args = ["--login", "-i"]

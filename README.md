@@ -1,13 +1,53 @@
-# dotfiles
+# dotfiles (Windows)
 
-A collection of my dotfiles and backups :D
+Personal Windows dotfiles and configuration (tested on Windows 10 22H2).
 
-- [`alacritty`](./alacritty/): Contains alacritty config (`.toml`) file(s) for Windows and Linux setups.
-- [`brave`](./brave/), [`firefox`](./firefox/): Contains backups for browser bookmarks.
-- [`fastfetch`](./fastfetch/): Contains fetch config.
-- [`micro`](./micro/): Contains micro; a CLI based text-editor, config.
-- [`slick-greeter`](./slick-greeter/): Contains modified file from the official [`slick-greeter`](https://github.com/linuxmint/slick-greeter) repository. Converts based fonts to `Liberation Sans`.
-- [`vscode`](./vscode/): Contains Visual Studio Code user `settings.json`.
-- [`zsh`](./zsh): Contains zsh shell `.zshrc` file.
+## Screenshot
 
-More to come soon...
+![win.png](./screenshots/win.png)
+
+## Installation
+
+You need to install the following resources first before setting things up.
+
+- [Alacritty](https://alacritty.org/) (main terminal emulator)
+- [Windows Terminal](https://github.com/microsoft/terminal)
+- [PowerShell 7](https://learn.microsoft.com/en-us/powershell/scripting/install/install-powershell-on-windows?view=powershell-7.5) (currently running version 7.5.4) with [oh-my-posh](https://ohmyposh.dev/docs/installation/windows) (for shell theming)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Notepad++](https://notepad-plus-plus.org/downloads/)
+- [Nord](https://www.nordtheme.com/) (colorscheme)
+- [winfetch](https://github.com/lptstr/winfetch)
+
+### PSReadLine (for auto-suggestions in CLI)
+
+For auto-suggestions in the CLI, make sure you have the latest [PSReadLine](https://github.com/PowerShell/PSReadLine) module installed in PowerShell. You can install it by running.
+
+```pwsh
+# See installed versions
+Get-Module -Name PSReadLine -ListAvailable | Select-Object Name, Version, Path
+
+# See if a new version is available
+Find-Module PSReadLine
+
+# Install the latest version
+Update-Module PSReadLine
+
+# Use this if the above gives an error
+# Install-Module PSReadLine -Force -AllowClobber -Scope CurrentUser
+```
+
+Restart PowerShell and you should see auto-suggestions in the command line.
+
+### WSL on Ubuntu 24.04 LTS
+
+- [zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH) (shell) with [oh-my-zsh](https://ohmyz.sh/) (for shell theming)
+- [fastfetch](https://github.com/fastfetch-cli/fastfetch)
+- [micro](https://micro-editor.github.io/) (CLI text editor)
+
+### Some `zsh` plugins I like
+
+I use the `zsh-autosuggestions` and `zsh-syntax-highlighting` plugins for auto-suggestions in my command line. Refer to this [gist](https://gist.github.com/n1snt/454b879b8f0b7995740ae04c5fb5b7df) for installation instructions.
+
+## Afterword
+
+These files reflect my personal Windows development setup; feel free to fork or adapt them to your workflow.
