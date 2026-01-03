@@ -13,7 +13,7 @@ You need to install the following resources first before setting things up.
 - [Alacritty](https://alacritty.org/) (main terminal emulator)
 - [Windows Terminal](https://github.com/microsoft/terminal)
 - [PowerShell 7](https://learn.microsoft.com/en-us/powershell/scripting/install/install-powershell-on-windows?view=powershell-7.5) (currently running version 7.5.4) with [oh-my-posh](https://ohmyposh.dev/docs/installation/windows) (for shell theming)
-- [Visual Studio Code](https://code.visualstudio.com/)
+- [Visual Studio Code](https://code.visualstudio.com/) (or you can use [Cursor](https://cursor.com/) / [Antigravity](https://antigravity.google/) or any fork basically)
 - [Notepad++](https://notepad-plus-plus.org/downloads/)
 - [Nord](https://www.nordtheme.com/) (colorscheme)
 - [winfetch](https://github.com/lptstr/winfetch)
