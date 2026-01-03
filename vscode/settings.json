@@ -2,6 +2,8 @@
 // You can view it by pressing Ctrl + E, and then searching for "> Open Settings (JSON)"
 
 {
+    "window.restoreWindows": "none",
+
     "workbench.startupEditor": "none",
     // Make sure you have the Nord theme installed
     // Install it from https://marketplace.visualstudio.com/items?itemName=arcticicestudio.nord-visual-studio-code or via the Extensions tab in VSCode
@@ -9,16 +11,20 @@
     "workbench.iconTheme": "vs-minimal",
     "workbench.secondarySideBar.defaultVisibility": "hidden",
     "workbench.navigationControl.enabled": true,
+    "workbench.editor.restoreViewState": false,
     
     "chat.commandCenter.enabled": false,
     
     "diffEditor.hideUnchangedRegions.enabled": true,
     "git.autofetch": true,
+
+    "files.hotExit": "off",
     
     "editor.cursorStyle": "line",
     "editor.cursorBlinking": "blink",
     "editor.cursorSmoothCaretAnimation": "off",
     "editor.fontFamily": "Cascadia Mono NF",
+    "editor.fontSize": 14,
     "editor.lineHeight": 1.4,
     "editor.fontLigatures": true,
     "editor.minimap.renderCharacters": false,
@@ -33,5 +39,8 @@
     
     // Windsurf/Codeium settings (if installed/enabled)
     "codeium.enableCodeLens": false,
+
+    // Type checking for PyLance
+    "python.analysis.typeCheckingMode": "basic"
 
 }
