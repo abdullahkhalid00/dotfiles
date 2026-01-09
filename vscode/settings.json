@@ -16,6 +16,7 @@
     "workbench.editor.restoreViewState": false,
     
     "chat.commandCenter.enabled": false,
+    "chat.viewSessions.orientation": "stacked",
     
     "diffEditor.hideUnchangedRegions.enabled": true,
     "git.autofetch": true,
@@ -51,6 +52,9 @@
     "python.analysis.typeCheckingMode": "off",
     
     // GitHub Copilot settings (if installed/enabled)
-    "github.copilot.nextEditSuggestions.enabled": false
+    "github.copilot.nextEditSuggestions.enabled": false,
+    
+    // Supermaven settings (if installed/enabled)
+    "supermaven.enableFixWithSupermaven": false
 
 }
