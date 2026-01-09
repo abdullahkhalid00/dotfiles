@@ -13,15 +13,18 @@ import = [
 working_directory="$HOME"
 
 [terminal]
-# Currently using PowerShell 7 as default shell
+# Uncomment below to use PowerShell 5.1 as default shell
 # Make sure PowerShell 7 is installed. Visit this site for installation https://learn.microsoft.com/en-us/powershell/scripting/install/install-powershell-on-windows?view=powershell-7.5#msi
-shell = { program="C:\\Program Files\\PowerShell\\7\\pwsh.exe", args=["-NoLogo"] }
+# shell = { program="C:\\Program Files\\PowerShell\\7\\pwsh.exe", args=["-NoLogo"] }
 
 # Uncomment below to use PowerShell 5.1 as default shell
 # shell = { program="C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", args=["-NoLogo"] }
 
+# Currently using WSL2 (Ubuntu 24.04)
+shell = { program="wsl" }
+
 [window]
-dimensions = { columns=85, lines=25 }
+dimensions = { columns=90, lines=25 }
 opacity = 0.90
 padding = { x = 4, y = 4 }
 
@@ -33,10 +36,11 @@ bold = { family="Cascadia Mono NF", style="Bold" }
 italic = { family="Cascadia Mono NF", style="Italic" }
 bold_italic = { family="Cascadia Mono NF", style="Bold Italic" }
 
-offset.x = 1
-offset.y = 4
+offset.x = 0
+offset.y = 0
+
 
 [cursor]
-style = { shape = "Block", blinking = "On"}
+style = { shape = "Block", blinking = "Off"}
 blink_interval = 500
 blink_timeout = 0
