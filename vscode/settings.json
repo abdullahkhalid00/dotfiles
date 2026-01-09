@@ -48,6 +48,9 @@
     },
 
     // Type checking for PyLance
-    "python.analysis.typeCheckingMode": "off"
+    "python.analysis.typeCheckingMode": "off",
+    
+    // GitHub Copilot settings (if installed/enabled)
+    "github.copilot.nextEditSuggestions.enabled": false
 
 }
