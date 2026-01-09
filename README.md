@@ -11,7 +11,7 @@ Personal dotfiles and configuration tested on Windows 10 22H2 and WSL2 (Ubuntu 2
 You need to install the following resources first before setting things up.
 
 - [Windows Terminal](https://github.com/microsoft/terminal) (primary terminal emulator)
-- [Alacritty](https://alacritty.org/)
+- [Alacritty](https://alacritty.org/) (secondary emulator for WSL)
 - [PowerShell 7](https://learn.microsoft.com/en-us/powershell/scripting/install/install-powershell-on-windows?view=powershell-7.5) (currently running version 7.5.4) with [oh-my-posh](https://ohmyposh.dev/docs/installation/windows) (for shell theming)
 - [Visual Studio Code](https://code.visualstudio.com/) (or you can use [Cursor](https://cursor.com/) / [Antigravity](https://antigravity.google/) or any fork basically)
 - [Notepad++](https://notepad-plus-plus.org/downloads/)
