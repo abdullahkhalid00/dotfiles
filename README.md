@@ -1,6 +1,6 @@
-# dotfiles (Windows)
+# dotfiles
 
-Personal Windows dotfiles and configuration (tested on Windows 10 22H2).
+Personal dotfiles and configuration tested on Windows 10 22H2 and WSL2 (Ubuntu 24.04).
 
 ## Screenshot
 
@@ -10,8 +10,8 @@ Personal Windows dotfiles and configuration (tested on Windows 10 22H2).
 
 You need to install the following resources first before setting things up.
 
-- [Alacritty](https://alacritty.org/) (main terminal emulator)
-- [Windows Terminal](https://github.com/microsoft/terminal)
+- [Windows Terminal](https://github.com/microsoft/terminal) (primary terminal emulator)
+- [Alacritty](https://alacritty.org/)
 - [PowerShell 7](https://learn.microsoft.com/en-us/powershell/scripting/install/install-powershell-on-windows?view=powershell-7.5) (currently running version 7.5.4) with [oh-my-posh](https://ohmyposh.dev/docs/installation/windows) (for shell theming)
 - [Visual Studio Code](https://code.visualstudio.com/) (or you can use [Cursor](https://cursor.com/) / [Antigravity](https://antigravity.google/) or any fork basically)
 - [Notepad++](https://notepad-plus-plus.org/downloads/)
@@ -41,7 +41,8 @@ Restart PowerShell and you should see auto-suggestions in the command line.
 
 ### WSL on Ubuntu 24.04 LTS
 
-- [zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH) (shell) with [oh-my-zsh](https://ohmyz.sh/) (for shell theming)
+- [fish](https://fishshell.com/) (main shell) with [oh-my-fish](https://github.com/oh-my-fish/oh-my-fish) (for shell theming). See [fish.md](./wsl/fish/fish.md)
+- [zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH) (secondary shell) with [oh-my-zsh](https://ohmyz.sh/) (for shell theming)
 - [fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - [micro](https://micro-editor.github.io/) (CLI text editor)
 
@@ -51,4 +52,4 @@ I use the `zsh-autosuggestions` and `zsh-syntax-highlighting` plugins for auto-s
 
 ## Afterword
 
-These files reflect my personal Windows development setup; feel free to fork or adapt them to your workflow.
+These files reflect my personal development setup; feel free to fork or adapt them to your workflow.
