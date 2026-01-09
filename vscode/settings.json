@@ -42,6 +42,10 @@
     
     // Windsurf/Codeium settings (if installed/enabled)
     "codeium.enableCodeLens": false,
+    "codeium.enableConfig": {
+        "*": true,
+        "markdown": true
+    },
 
     // Type checking for PyLance
     "python.analysis.typeCheckingMode": "off"
