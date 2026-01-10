@@ -44,3 +44,13 @@ fisher install <plugin-name>
 - [oh-my-fish](https://github.com/oh-my-fish/oh-my-fish) with [agnoster](https://github.com/oh-my-fish/theme-agnoster) and [robbyrussell](https://github.com/oh-my-fish/theme-robbyrussell)
 
 > **Note**: You can install any omf theme / package by running `omf install <theme-name>`
+
+### Some aliases I use
+
+- `c` for `clear`
+- `clean` for `sudo apt-get autoremove && sudo apt-get autoclean`
+- `ff` for `fastfetch`
+- `pwsh` for running Powershell in the same window (I use this for cross platform coding especially for opening VS Code)
+- `update` for `sudo apt-get update && sudo apt-get upgrade`
+
+To install, copy the contents of the [functions](./functions/) directory to `~/.config/fish/functions`.
