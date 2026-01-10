@@ -6,4 +6,10 @@ if status is-interactive
 
     # Run fastfetch on shell startup (disabled for now)
     # fastfetch
+
+    # Set fzf config
+    # For adding wrapped lines add '--preview-window=wrap' at the end
+    set -gx FZF_DEFAULT_OPTS "--preview 'batcat --style=numbers --color=always --line-range :500 {}'"    
+    set -gx FZF_DEFAULT_COMMAND "fdfind --type f --hidden --follow --exclude .git"    
+
 end
