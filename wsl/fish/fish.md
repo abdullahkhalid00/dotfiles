@@ -39,9 +39,21 @@ fisher install <plugin-name>
 
 ### Some plugins I use
 
-- [z](https://github.com/jethrokuan/z)
-- [fish-async-prompt](https://github.com/acomagu/fish-async-prompt)
-- [oh-my-fish](https://github.com/oh-my-fish/oh-my-fish) with [agnoster](https://github.com/oh-my-fish/theme-agnoster) and [robbyrussell](https://github.com/oh-my-fish/theme-robbyrussell)
+- [jethrokuan/z](https://github.com/jethrokuan/z)
+- [acomagu/fish-async-prompt](https://github.com/acomagu/fish-async-prompt)
+
+### Shell prompt
+
+I use oh-my-fish for shell prompt theming. You can install it by running this command.
+
+```bash
+curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
+```
+
+Here are some themes I use.
+
+- [agnoster](https://github.com/oh-my-fish/theme-agnoster)
+- [robbyrussell](https://github.com/oh-my-fish/theme-robbyrussell)
 
 > **Note**: You can install any omf theme / package by running `omf install <theme-name>`
 
@@ -52,5 +64,7 @@ fisher install <plugin-name>
 - `ff` for `fastfetch`
 - `pwsh` for running Powershell in the same window (I use this for cross platform coding especially for opening VS Code)
 - `update` for `sudo apt-get update && sudo apt-get upgrade`
+- `add` for `sudo apt-get install`
+- `del` for `sudo apt-get remove --purge`
 
 To install, copy the contents of the [functions](./functions/) directory to `~/.config/fish/functions`.
