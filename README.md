@@ -45,8 +45,9 @@ Restart PowerShell and you should see auto-suggestions in the command line.
 - [zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH) (secondary shell) with [oh-my-zsh](https://ohmyz.sh/) (for shell theming)
 - [fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - [micro](https://micro-editor.github.io/) (CLI text editor)
+- [fzf](https://github.com/junegunn/fzf) and [fd](https://github.com/sharkdp/fd) for fuzzy file searching
 
-### Some `zsh` plugins I like
+### Some zsh plugins I use
 
 I use the `zsh-autosuggestions` and `zsh-syntax-highlighting` plugins for auto-suggestions in my command line. Refer to this [gist](https://gist.github.com/n1snt/454b879b8f0b7995740ae04c5fb5b7df) for installation instructions.
 
